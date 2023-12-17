@@ -21,7 +21,7 @@ requirements:
     - maturin >=1.0,<2.0                  # [build_platform != target_platform]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-    - {{ compiler('rust') }}
+    - {{ compiler('rust') }} >=1.65.0
     - posix                               # [win]
     - make                                # [unix]
     - cargo-bundle-licenses
@@ -35,9 +35,11 @@ requirements:
   run:
     - python
     - xz
-    - sourmash-minimal >=4.8.3,<5
+    - sourmash-minimal >=4.8.5,<5
     - libstdcxx-ng                        # [linux]
     - libgcc-ng                           # [linux]
+    # Due to rocksDB: https://conda-forge.org/docs/maintainer/knowledge_base.html#newer-c-features-with-old-sdk
+    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx and x86_64]
 
 test:
   imports:
