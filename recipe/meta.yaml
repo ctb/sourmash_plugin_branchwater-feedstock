@@ -1,5 +1,5 @@
 {% set name = "sourmash_plugin_branchwater" %}
-{% set version = "0.8.5" %}
+{% set version = "0.8.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e36f70c1e8bb3167dbc1d96ca075258572a6ab6e89eb43e5de9e9464f5641c31
+  sha256: c12af33585d99066e3e336831ace0d1ac7fc880906ce906b96a8a38f42a028a6
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win or py<310]
 
 requirements:
