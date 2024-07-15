@@ -1,4 +1,4 @@
-MACOSX_SDK_VERSION:        # [osx]
-  - "10.14"                # [osx]
-c_stdlib_version:          # [osx]
-  - "10.14"                # [osx]
+#MACOSX_SDK_VERSION:        # [osx]
+#  - "10.14"                # [osx]
+#c_stdlib_version:          # [osx]
+#  - "10.14"                # [osx]
