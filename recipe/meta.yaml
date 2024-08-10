@@ -26,8 +26,6 @@ requirements:
     - posix                               # [win]
     - make                                # [unix]
     - cargo-bundle-licenses
-    - libclang                            # [unix]
-    - clangdev                            # [unix]
     - xz
   host:
     - python
