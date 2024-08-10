@@ -2,7 +2,9 @@
 
 set -ex
 
-export CXXFLAGS="${CXXFLAGS} -D_LIBCPP_DISABLE_AVAILABILITY"
+# this breaks builds as of July 2024, but was required before then :) -- CTB.
+#export CXXFLAGS="${CXXFLAGS} -D_LIBCPP_DISABLE_AVAILABILITY"
+
 export BINDGEN_EXTRA_CLANG_ARGS="$CFLAGS"
 export LIBCLANG_PATH=$BUILD_PREFIX/lib/libclang${SHLIB_EXT}
 
