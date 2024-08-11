@@ -1,5 +1,5 @@
 {% set name = "sourmash_plugin_branchwater" %}
-{% set version = "0.9.5" %}
+{% set version = "0.9.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b916a6a62bb82c8d03edbd4071a423bf594e83053183b4ad014788008d40a847
+  sha256: 12564213d92a8afa3370206abc167975425c23c0d306c17dd8efc517f39853d3
 
 build:
   number: 0
@@ -18,7 +18,7 @@ requirements:
     - python                              # [build_platform != target_platform]
     - cross-python_{{ target_platform }}  # [build_platform != target_platform]
     - crossenv                            # [build_platform != target_platform]
-    - maturin >=1.0,<2.0                  # [build_platform != target_platform]
+    - maturin >=1.1.0,<2                  # [build_platform != target_platform]
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
