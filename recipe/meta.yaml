@@ -37,8 +37,8 @@ requirements:
     - python
     - xz
     - sourmash-minimal >=4.8.5,<5
-    - libstdcxx-ng                        # [linux]
-    - libgcc-ng                           # [linux]
+    - libstdcxx                           # [linux]
+    - libgcc                              # [linux]
     # Due to rocksDB: https://conda-forge.org/docs/maintainer/knowledge_base.html#newer-c-features-with-old-sdk
 
 test:
