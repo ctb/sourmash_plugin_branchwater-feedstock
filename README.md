@@ -27,13 +27,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20928&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sourmash_plugin_branchwater-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20928&branchName=main">
@@ -52,13 +45,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20928&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sourmash_plugin_branchwater-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_aarch64_python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20928&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sourmash_plugin_branchwater-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -83,13 +69,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20928&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sourmash_plugin_branchwater-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20928&branchName=main">
@@ -108,13 +87,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20928&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sourmash_plugin_branchwater-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20928&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sourmash_plugin_branchwater-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -151,7 +123,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-sourmash_plugin_branchwater-green.svg)](https://anaconda.org/conda-forge/sourmash_plugin_branchwater) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sourmash_plugin_branchwater.svg)](https://anaconda.org/conda-forge/sourmash_plugin_branchwater) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sourmash_plugin_branchwater.svg)](https://anaconda.org/conda-forge/sourmash_plugin_branchwater) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sourmash_plugin_branchwater.svg)](https://anaconda.org/conda-forge/sourmash_plugin_branchwater) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sourmash__plugin__branchwater-green.svg)](https://anaconda.org/conda-forge/sourmash_plugin_branchwater) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sourmash_plugin_branchwater.svg)](https://anaconda.org/conda-forge/sourmash_plugin_branchwater) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sourmash_plugin_branchwater.svg)](https://anaconda.org/conda-forge/sourmash_plugin_branchwater) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sourmash_plugin_branchwater.svg)](https://anaconda.org/conda-forge/sourmash_plugin_branchwater) |
 
 Installing sourmash_plugin_branchwater
 ======================================
