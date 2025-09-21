@@ -1,5 +1,5 @@
 {% set name = "sourmash_plugin_branchwater" %}
-{% set version = "0.9.13" %}
+{% set version = "0.9.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 583c5b03aaa0ee37435073d7eea0442df9562b810bc4000eade381e2e64e0042
+  sha256: 3eb8ab01220c02d5481bf8db972ff69b15b17274b1b3b3548530a70bc7e5fef9
 
 build:
   number: 1
-  skip: true  # [win or py<310]
+  skip: true  # [win or py<311]
 
 requirements:
   build:
@@ -36,7 +36,7 @@ requirements:
   run:
     - python
     - xz
-    - sourmash-minimal >=4.8.5,<5
+    - sourmash-minimal >=4.9.4,<5
     - libstdcxx                           # [linux]
     - libgcc                              # [linux]
     # Due to rocksDB: https://conda-forge.org/docs/maintainer/knowledge_base.html#newer-c-features-with-old-sdk
