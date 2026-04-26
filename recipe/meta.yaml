@@ -23,7 +23,7 @@ requirements:
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - {{ compiler('rust') }} >=1.65.0
-    - posix                               # [win]
+    - m2-base                             # [win]
     - make                                # [unix]
     - cargo-bundle-licenses
     - libclang                            # [unix]
@@ -35,7 +35,7 @@ requirements:
     - pip
   run:
     - python
-    - xz
+    - liblzma-devel
     - sourmash-minimal >=4.9.4,<5
     - libstdcxx                           # [linux]
     - libgcc                              # [linux]
